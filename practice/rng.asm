@@ -32,8 +32,6 @@ rng:
 	srl $t1,$t1,27
 	or $t0,$t0,$t1
 
-	srl $t0,$t0,24
-
 print_nums:
 	li $v0, 4
 	la $a0, seed
